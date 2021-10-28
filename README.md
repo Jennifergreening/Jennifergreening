@@ -1,3 +1,5 @@
+	</launch>
+
 name="auto_sort" default="false"/>
   <arg name="at_dock" default="false"/>
   <arg name="gripper_open" default="0.031"/>
@@ -20,7 +22,7 @@ name="auto_sort" default="false"/>
     <param name="gripper_tighten" value="0.004" />
     <param name="z_up" value="0.06" />
     <param name="target_bin_height" value="0.06" />
-    <param name="table_height" value="0.0" />
+    <param name="table_height" value="0.1" />
 
     <param name="gripper_tighten" value="$(arg gripper_tighten)" />
     <param name="z_up" value="$(arg z_up)" />
@@ -30,3 +32,7 @@ name="auto_sort" default="false"/>
 
   </node>
 </launch>
+
+    <param name=
+    
+    
